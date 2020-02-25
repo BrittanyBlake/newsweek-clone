@@ -12,7 +12,7 @@ body {
   font-weight: 300;
 }
 
-#navbar-1 {
+nav {
   background-color: rgb(237, 70, 47);
 }
 
@@ -32,4 +32,9 @@ body {
 
 .nowrap {
   white-space: nowrap;
+}
+
+.nav-image-2 {
+  height: 50px;
+  width: 100%;
 }
