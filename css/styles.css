@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+.nav-weather{
+    font-size: 15px;
+}
+
+.nav-date{
+    font-weight: 300;
+}
+
+#navbar-1{
+    min-height:15vh;
+    background-color: rgb(237,70,47);
+}
+
+.sign-in p{
+    font-size: 18px;
+}
+
+.btn{
+    border-radius: 0;
+    font-size:18px;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
