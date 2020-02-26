@@ -41,6 +41,10 @@ nav {
 
 .nav-image-2 {
   height: 50px;
-  width: 100%;
+width: 100%;
 }
 
+a .underline-red:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
