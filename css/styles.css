@@ -34,7 +34,13 @@ nav {
   white-space: nowrap;
 }
 
+.nav-links h6{
+  font-size: 17px;
+}
+
+
 .nav-image-2 {
   height: 50px;
   width: 100%;
 }
+
