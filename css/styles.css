@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  min-height: 100vh;
 }
 
 .nav-date {
