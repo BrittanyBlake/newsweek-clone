@@ -48,3 +48,12 @@ a .underline-red:hover{
   text-decoration: underline;
   text-decoration-color: red;
 }
+
+.featured-stories .image-info{
+  position:relative;
+  bottom:40px;
+  background-color:#f3f2f1;
+  z-index:1;
+  font-size:16px; 
+  width: 100px;
+}
