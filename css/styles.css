@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   min-height: 100vh;
+  width: 100%;
 }
 
 .nav-date {
@@ -15,6 +16,7 @@ body {
 
 nav {
   background-color: rgb(237, 70, 47);
+ 
 }
 
 .nav-image {
@@ -35,36 +37,34 @@ nav {
   white-space: nowrap;
 }
 
-.nav-links h6{
+.nav-links h6 {
   font-size: 17px;
 }
 
-
 .nav-image-2 {
   height: 50px;
-width: 100%;
+  width: 100%;
 }
 
-a .underline-red:hover{
+a .underline-red:hover {
   text-decoration: underline;
   text-decoration-color: red;
 }
 
-.featured-stories .image-info{
-  position:relative;
-  bottom:40px;
-  background-color:#f3f2f1;
-  z-index:1;
-  font-size:16px; 
+.featured-stories .image-info {
+  position: relative;
+  bottom: 40px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 16px;
   width: 80px;
 }
 
-.featured-stories .info-sponsor{
-  position:relative;
-  bottom:40px;
-  background-color:#f3f2f1;
-  z-index:1;
-  font-size:16px; 
+.featured-stories .info-sponsor {
+  position: relative;
+  bottom: 40px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 16px;
   width: 180px;
 }
-
