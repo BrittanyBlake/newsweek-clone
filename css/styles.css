@@ -55,5 +55,15 @@ a .underline-red:hover{
   background-color:#f3f2f1;
   z-index:1;
   font-size:16px; 
-  width: 100px;
+  width: 80px;
 }
+
+.featured-stories .info-sponsor{
+  position:relative;
+  bottom:40px;
+  background-color:#f3f2f1;
+  z-index:1;
+  font-size:16px; 
+  width: 180px;
+}
+
