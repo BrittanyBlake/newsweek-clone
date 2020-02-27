@@ -68,3 +68,7 @@ a .underline-red:hover {
   font-size: 16px;
   width: 180px;
 }
+
+.culture-travel h5{
+  font-family: 'Lora', serif;
+}
