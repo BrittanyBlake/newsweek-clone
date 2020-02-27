@@ -72,3 +72,7 @@ a .underline-red:hover {
 .culture-travel h6{
   font-family: 'Lora', serif;
 }
+
+.opinion .card-text{
+  font-size: 14px;
+}
