@@ -111,3 +111,12 @@ a .underline-red:hover {
   width: 40px;
   height:40px;
 }
+
+.small-logo{
+  height: 40px;
+  width: 40px;
+}
+
+#ad{
+  background-color: rgb(244,245,246);
+}
