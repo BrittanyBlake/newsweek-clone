@@ -16,7 +16,6 @@ body {
 
 nav {
   background-color: rgb(237, 70, 47);
- 
 }
 
 .nav-image {
@@ -69,10 +68,46 @@ a .underline-red:hover {
   width: 180px;
 }
 
-.culture-travel h6{
-  font-family: 'Lora', serif;
+.culture-travel h6 {
+  font-family: "Lora", serif;
 }
 
-.opinion .card-text{
+.opinion .card-text {
   font-size: 14px;
+}
+
+.debate h6 {
+  line-height: 21px;
+  font-size: 17px;
+}
+
+.debate {
+  border-bottom: 4px double lightgrey;
+}
+
+.debate-red {
+  border-top: 4px red solid;
+}
+
+.debate-blue {
+  border-top: 4px blue solid;
+}
+
+.right-side p{
+  font-size: 14px;
+}
+
+
+
+.debate-image{
+  height:70px;
+  width:70px;
+  margin-top: -65px;
+  position: relative;
+ 
+}
+
+.rounded-circle{
+  width: 40px;
+  height:40px;
 }
