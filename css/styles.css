@@ -145,3 +145,9 @@ a .underline-red:hover {
   height: 90%;
   width:100%;
 }
+
+.magazine .focus{
+  position: relative;
+  bottom:32px;
+  width:90px;
+}
