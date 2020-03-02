@@ -93,35 +93,32 @@ a .underline-red:hover {
   border-top: 4px blue solid;
 }
 
-.right-side p{
+.right-side p {
   font-size: 14px;
 }
 
-
-
-.debate-image{
-  height:70px;
-  width:70px;
+.debate-image {
+  height: 70px;
+  width: 70px;
   margin-top: -65px;
   position: relative;
- 
 }
 
-.rounded-circle{
+.rounded-circle {
   width: 40px;
-  height:40px;
+  height: 40px;
 }
 
-.small-logo{
+.small-logo {
   height: 40px;
   width: 40px;
 }
 
-#ad{
-  background-color: rgb(244,245,246);
+#ad {
+  background-color: rgb(244, 245, 246);
 }
 
-.title-logo{
+.title-logo {
   height: 25px;
   width: 25px;
 }
@@ -141,13 +138,22 @@ a .underline-red:hover {
   width: 100%;
 }
 
- .magazine .magazine-image{
+.magazine .magazine-image {
   height: 90%;
-  width:100%;
+  width: 100%;
 }
 
-.magazine .focus{
+.magazine .focus {
+  position: relative;
+  bottom: 32px;
+  width: 90px;
+}
+
+.editor-info{
   position: relative;
   bottom:32px;
-  width:90px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 17px;
+  width: 78px;
 }
