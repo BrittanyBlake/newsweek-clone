@@ -157,3 +157,34 @@ a .underline-red:hover {
   font-size: 17px;
   width: 78px;
 }
+
+.scroll-section-feature{
+  
+  height:  2150px;
+  overflow-y: auto;
+  
+}
+
+.scroll-section-opinion{
+  
+  height: 2150px;
+  overflow-y: auto;
+  
+}
+
+.scroll-section-stories{
+  height:1000px;
+  overflow-y: auto;
+}
+
+.scroll-section-stories::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-section-feature::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-section-opinion::-webkit-scrollbar {
+  display: none;
+}
