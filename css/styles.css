@@ -50,7 +50,7 @@ a .underline-red:hover {
   text-decoration-color: red;
 }
 
-.featured-stories .image-info {
+ .image-info {
   position: relative;
   bottom: 40px;
   background-color: #f3f2f1;
@@ -158,33 +158,22 @@ a .underline-red:hover {
   width: 78px;
 }
 
-.scroll-section-feature{
-  
-  height:  2150px;
+ .scroll-section-opinion{
+  height: 1450px;
   overflow-y: auto;
-  
-}
-
-.scroll-section-opinion{
-  
-  height: 2150px;
-  overflow-y: auto;
-  
-}
-
-.scroll-section-stories{
-  height:1000px;
-  overflow-y: auto;
-}
-
-.scroll-section-stories::-webkit-scrollbar {
-  display: none;
-}
-
-.scroll-section-feature::-webkit-scrollbar {
-  display: none;
-}
+} 
 
 .scroll-section-opinion::-webkit-scrollbar {
   display: none;
+} 
+
+.slideshow-info {
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: cover;
+  height: 50px;
+  width: 70px;
+  line-height: 55px;
+  bottom: 60px;
+  left:0;
+  position: absolute;
 }
