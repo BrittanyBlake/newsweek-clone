@@ -188,3 +188,9 @@ a .underline-red:hover {
 .subscribe-ad{
   background-color: #f3f2f1;
 }
+
+div .newsletter-photo{
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+height: 100%;
+width: 100%;
+}
