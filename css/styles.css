@@ -177,3 +177,14 @@ a .underline-red:hover {
   left:0;
   position: absolute;
 }
+
+.subscribe-top{
+  position: absolute;
+  top:20px;
+  z-index: 1;
+  left:80px;
+}
+
+.subscribe-ad{
+  background-color: #f3f2f1;
+}
