@@ -144,11 +144,13 @@ a .underline-red:hover {
   font-size: 18px;
   width: 100%;
 }
+/* 
 
+media query for 1024 +
 .magazine .magazine-image {
   height: 90%;
   width: 100%;
-}
+} */
 
 .magazine .focus {
   position: relative;
@@ -180,9 +182,9 @@ a .underline-red:hover {
   height: 50px;
   width: 70px;
   line-height: 55px;
-  bottom: 60px;
+  bottom: 48px;
   left: 0;
-  position: absolute;
+  position: relative;
 }
 
 .subscribe-top {
