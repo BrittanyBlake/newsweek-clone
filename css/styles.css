@@ -8,6 +8,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   min-height: 100vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .nav-date {
@@ -57,6 +58,12 @@ a .underline-red:hover {
   z-index: 1;
   font-size: 16px;
   width: 80px;
+}
+
+.culture-info {
+  width: 50%;
+  bottom: 27px;
+  font-size: 12px;
 }
 
 .featured-stories .info-sponsor {
@@ -190,7 +197,8 @@ a .underline-red:hover {
 }
 
 div .newsletter-photo {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     center center / cover no-repeat;
   height: 100%;
   width: 100%;
@@ -200,11 +208,11 @@ div .newsletter-photo {
   width: 100%;
 }
 
+.footer-links {
+  line-height: 30px;
+}
+
 footer p .footer-links {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-links {
-  line-height: 30px;
 }

@@ -5,8 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Newsweek </title>
-  <!--reset-->
-  <link rel="stylesheet" href="./css/reset.css" type="text/css" />
   <!--bootstrap css-->
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <!--Font Awesome-->
@@ -22,7 +20,7 @@
   <!--Nav bar-->
 
   <!--nav bar 1-->
-  <nav id="navbar-1" class=" navbar-1 mx-3 ">
+  <nav id="navbar-1" class=" navbar-1 ">
     <div class="container col-12 navbar-1 ml-3 d-none d-lg-block">
       <div class="row">
         <div class="col-lg-3 my-auto text-white d-lg-block">
@@ -51,7 +49,7 @@
               <a href="#" class="text-white">
                 <p class="font-weight-bold">sign in </p>
               </a>
-              <button class="btn btn-block bg-white text-danger text-uppercase ml-3" type="button">
+              <button class="btn btn-block bg-white text-danger text-uppercase ml-3 py-0" type="button">
                 <strong>
                   Subscribe <i class="fas fa-chevron-right fa-sm"> </i>
                 </strong>
@@ -64,8 +62,8 @@
   </nav>
   <!--End of nav bar 1-->
   <!--nav bar links-->
-  <nav class="container-fluid  nav-links d-none d-lg-block bg-white nowrap">
-    <div class="row col-lg-12 mx-2 nav-links border-bottom d-flex pt-2 nowrap">
+  <nav class="container-fluid  nav-links border-bottom d-none d-lg-block bg-white nowrap">
+    <div class="row col-lg-12 nav-links  d-flex pt-2 nowrap">
       <h6 class="col-lg-0.5 border-right pr-3 font-weight-bold ">U.S.</h6>
       <h6 class="col-lg-1 border-right font-weight-bold d-flex justify-content-center">
         World
@@ -130,7 +128,7 @@
               <a href="#" class="text-white">
                 <p class="font-weight-bold">sign in </p>
               </a>
-              <button class="btn btn-block bg-white text-danger text-uppercase ml-3 my-3" type="button">
+              <button class="btn btn-block bg-white text-danger text-uppercase ml-3 py-0 my-3" type="button">
                 <strong>
                   Subscribe <i class="fas fa-chevron-right fa-sm"> </i>
                 </strong>
@@ -150,16 +148,18 @@
     <div class="row featured-stories ">
 
       <!--featured stories section-->
-      <div class="row left-side bg-white col-sm-12 col-md-5 col-lg-4 scroll-section-feature">
+      <div class="row left-side bg-white col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
 
-        <div id="featured-stories" class="featured-stories bg-white  col-sm-12 col-md-12 col-lg-12 pl-5">
+        <div id="featured-stories"
+          class="featured-stories bg-white  col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-lg-4 mx-xs-0 px-xs-0">
           <h6 class="text-muted pt-3 text-uppercase font-weight-bold"> Featured Stories </h6>
           <!--single article-->
           <article class="featured-stories card border-0 mb-3 ">
             <a href="#" class="image-links text-decoration-none">
               <img src="./images/featured1.jpg" alt="article image" class="card-image-top img-fluid">
               <p class="image-info text-uppercase text-danger bg-muted font-weight-bold p-2 "> politics </p>
-              <h5 class="card-title text-dark font-weight-bold underline-red mt-n5"> Who Won the Tenth Democratic Debate
+              <h5 class="card-title text-dark font-weight-bold underline-red mt-n5 "> Who Won the Tenth Democratic
+                Debate
                 in
                 South Carolina?</h5>
               <p class="card-text text-dark ">
@@ -216,7 +216,7 @@
           </article>
           <!--end of single article-->
           <!--single article sponsored-->
-          <article class="featured-stories card mb-3 d-none d-sm-none d-md-block my-5">
+          <article class="featured-stories card mb-3 my-5">
             <a href="#" class="image-links text-decoration-none">
               <img src="./images/featured5.jpg" alt="article image" class="card-image-top img-fluid">
               <p class="image-info info-sponsor text-uppercase text-primary bg-muted font-weight-bold px-3 py-2">
@@ -235,7 +235,7 @@
           </article>
           <!--end of single article-->
           <!--single article sponsored-->
-          <article class="featured-stories card mb-3 d-none d-sm-none d-md-block my-5">
+          <article class="featured-stories card mb-3 my-5">
             <a href="#" class="image-links text-decoration-none ">
               <img src="images/featured6.png" alt="article image" class="card-image-top img-fluid">
               <p class="image-info text-uppercase text-primary bg-muted font-weight-bold px-3 py-2 px-3"> nyc</p>
@@ -251,7 +251,7 @@
           </article>
           <!--end of single article-->
           <!--single article sponsored-->
-          <article class="featured-stories card mb-3 d-none d-sm-none d-md-block my-5">
+          <article class="featured-stories card mb-3 my-5">
             <a href="#" class="image-links text-decoration-none mb-3">
               <img src="./images/featured7.jpg" alt="article image" class="card-image-top img-fluid">
               <p class="image-info info-sponsor text-uppercase text-primary bg-muted font-weight-bold px-3 py-2">
@@ -268,7 +268,7 @@
           </article>
           <!--end of single article-->
           <!--single article sponsored-->
-          <article class="featured-stories card mb-3 d-none d-sm-none d-md-block my-5">
+          <article class="featured-stories card mb-3 my-5">
             <a href="#" class="image-links text-decoration-none">
               <img src="./images/featured8.jpg" alt="article image" class="card-image-top img-fluid">
               <p class="image-info info-sponsor  text-uppercase text-primary bg-muted font-weight-bold px-3 py-2">
@@ -287,13 +287,14 @@
         </div>
       </div>
       <!--end of featured stories section-->
+      
 
 
       <!--top story section-->
 
       <div class="row middle-section bg-white  col-sm-12 col-md-7 col-lg-4 mx-auto ">
 
-        <div id="middle-section" class="middle-section bg-white  ">
+        <div id="middle-section" class="middle-section bg-white ">
 
           <h6 class="text-muted pt-3 text-uppercase font-weight-bold"> top story</h6>
 
@@ -324,7 +325,8 @@
               <article class=" middle-section top-story card border-0 mb-3">
                 <a href="#" class="image-links text-decoration-none">
                   <img src="./images/culture1.jpg" alt="culture image" class="card-image-top img-fluid">
-                  <p class="image-info culture-info text-capitalize text-muted bg-muted font-weight-thin p-1">books </p>
+                  <p class="image-info culture-info text-capitalize text-muted bg-muted font-weight-thin p-1 mb-4">books
+                  </p>
                   <h5 class="card-title text-dark font-weight-thin px-lg-1 mt-n5"> 40 Must-Read Fiction and
                     Nonfiction Books to Savor This Spring</h5>
                   <p class="card-text font-weight-thin text-muted ">
@@ -737,7 +739,7 @@
           </article>
           <!--end of single opinion-->
           <!--The debate-->
-          <div id="right-side" class="right-side  bg-white col-sm-12 col-md-7 col-lg-4 mx-n3">
+          <div class="right-side  bg-white col-sm-12 col-md-7 col-lg-4 mx-n3">
             <h6 class="text-muted pt-3 text-uppercase font-weight-bold"> the debate </h6>
           </div>
           <!--debate 1-->
@@ -797,7 +799,7 @@
 
 
           <!--latest news-->
-          <div id="right-side" class="right-side  bg-white col-sm-12 col-md-7 col-lg-4 mx-n3 pt-3">
+          <div class="right-side  bg-white col-sm-12 col-md-7 col-lg-4 mx-n3 pt-3">
             <h6 class="text-muted pt-3 text-uppercase font-weight-bold"> latest news </h6>
           </div>
           <!--news item 1-->
@@ -1039,6 +1041,7 @@
         <!--end of opinion row-->
       </div>
       <!--End of top  Content section-->
+    </div>
   </section>
   <!--magazine section-->
   <section id="magazine" class="container-fluid magazing">
@@ -1056,7 +1059,7 @@
         class="row magazine bg-white col-sm-12 col-md-12 col-lg-12 border-top ml-lg-4 d-flex justify-content-between">
         <!--single article-->
         <div class="row magazine bg-white col-sm-12 col-md-3 col-lg-3 pt-3">
-          <article class=" magazine card border-0 mb-3 ">
+          <div class=" magazine card border-0 mb-3 ">
             <a href="#" class="image-links text-decoration-none">
               <img src="./images/magazine1.jpg" alt="magazine image" class="card-image-top img-fluid">
               <p class="image-info magazine-info text-uppercase text-danger font-weight-bold py-1 px-2"> march 06 issue
@@ -1064,7 +1067,7 @@
               <p class="card-title magazine-title text-dark font-weight-bold text-uppercase text-center mt-n5 py-2 ">
                 See all features <i class="fas fa-chevron-right fa-sm"></i></p>
             </a>
-          </article>
+          </div>
         </div>
         <!--end of single article -->
         <!--single article-->
@@ -1172,8 +1175,7 @@
       <!--end of second magazine row-->
 
     </div>
-    </div>
-    </div>
+  
   </section>
   <!-- end of magazine section-->
 
@@ -2073,11 +2075,11 @@
         <!--subscribe ad-->
         <div class="row subscribe-ad col-sm-12 col-md-12 col-lg-12">
           <div class="row subscribe col-sm-12 col-md-4 col-lg-4 py-5 ">
-            <article class="subscribe card border-0 mx-4">
+            <div class="subscribe card border-0 mx-4">
               <img src="./images/newsletter1.jpg" alt="subscribe image"
                 class="card-image-top subscribe-bottom img-fluid ">
               <img src="./images/subscribe.jpg" alt="subscribe image" class="card-image-top subscribe-top img-fluid">
-            </article>
+            </div>
           </div>
 
           <div class="col-xs-8 col-sm-8 col-md-8 px-5 mt-5 pt-5">
@@ -2169,6 +2171,8 @@
       </p>
     </div>
   </footer>
+
+
   <!--jquery-->
   <script src="./js/jquery-3.4.1.min.js"></script>
   <!--bootstrap js-->
