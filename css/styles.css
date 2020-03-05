@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+.nav-links h6:hover{
+cursor: pointer;
+}
+
 .nav-date {
   font-weight: 300;
 }
@@ -167,14 +171,20 @@ media query for 1024 +
   width: 78px;
 }
 
-.scroll-section-opinion {
-  height: 1450px;
-  overflow-y: auto;
+@media only screen and (min-width:1200px){
+  .scroll-section-opinion {
+    height: 1450px;
+    overflow-y: auto;
+  }
+
+  .scroll-section-opinion::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-.scroll-section-opinion::-webkit-scrollbar {
-  display: none;
-}
+
+
+
 
 .slideshow-info {
   background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
@@ -218,3 +228,4 @@ footer p .footer-links {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
