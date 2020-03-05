@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://brittanyblake.github.io/Apple-clone/)
+[Live Demo Link](https://brittanyblake.github.io/newsweek-clone/)
 
 
 ## Authors
