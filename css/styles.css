@@ -11,8 +11,21 @@ body {
   overflow-x: hidden;
 }
 
-.nav-links h6:hover{
-cursor: pointer;
+.nav-links h6 {
+  font-size: 17px;
+}
+
+.culture-travel h6 {
+  font-family: "Lora", serif;
+}
+
+.debate h6 {
+  line-height: 21px;
+  font-size: 17px;
+}
+
+.nav-links h6:hover {
+  cursor: pointer;
 }
 
 .nav-date {
@@ -39,10 +52,6 @@ nav {
 
 .nowrap {
   white-space: nowrap;
-}
-
-.nav-links h6 {
-  font-size: 17px;
 }
 
 .nav-image-2 {
@@ -79,17 +88,8 @@ a .underline-red:hover {
   width: 180px;
 }
 
-.culture-travel h6 {
-  font-family: "Lora", serif;
-}
-
 .opinion .card-text {
   font-size: 14px;
-}
-
-.debate h6 {
-  line-height: 21px;
-  font-size: 17px;
 }
 
 .debate {
@@ -148,13 +148,6 @@ a .underline-red:hover {
   font-size: 18px;
   width: 100%;
 }
-/* 
-
-media query for 1024 +
-.magazine .magazine-image {
-  height: 90%;
-  width: 100%;
-} */
 
 .magazine .focus {
   position: relative;
@@ -171,7 +164,7 @@ media query for 1024 +
   width: 78px;
 }
 
-@media only screen and (min-width:1200px){
+@media only screen and (min-width: 1200px) {
   .scroll-section-opinion {
     height: 1450px;
     overflow-y: auto;
@@ -181,10 +174,6 @@ media query for 1024 +
     display: none;
   }
 }
-
-
-
-
 
 .slideshow-info {
   background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
@@ -229,3 +218,10 @@ footer p .footer-links {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*media queries*/
+
+@media only screen and (max-width:575px){
+  .footer-logo {
+    width: 50%;
+  }
+}
