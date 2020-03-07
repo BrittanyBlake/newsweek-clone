@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+  z-index: -3;
 }
 
 .nav-links h6 {
@@ -224,4 +225,21 @@ footer p .footer-links {
   .footer-logo {
     width: 50%;
   }
+
+  .nav-image-2 {
+    width: 40%;
+  }
+}
+
+#navbar-2 {
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  margin-bottom: 1px;
+}
+
+main {
+  position: absolute;
+  z-index: -2;
 }
