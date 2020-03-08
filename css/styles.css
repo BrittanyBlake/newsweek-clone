@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  z-index: -3;
+}
+
+.nav-links h6 {
+  font-size: 17px;
+}
+
+.culture-travel h6 {
+  font-family: "Lora", serif;
+}
+
+.debate h6 {
+  line-height: 21px;
+  font-size: 17px;
+}
+
+.nav-links h6:hover {
+  cursor: pointer;
+}
+
+.nav-date {
+  font-weight: 300;
+}
+
+nav {
+  background-color: rgb(255, 1, 1);
+}
+
+.nav-image {
+  height: 130px;
+  width: 100%;
+}
+
+.sign-in p {
+  font-size: 18px;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 18px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.nav-image-2 {
+  height: 50px;
+  width: 100%;
+}
+
+a .underline-red:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.image-info {
+  position: relative;
+  bottom: 40px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 16px;
+  width: 80px;
+}
+
+.culture-info {
+  width: 50%;
+  bottom: 27px;
+  font-size: 12px;
+}
+
+.featured-stories .info-sponsor {
+  position: relative;
+  bottom: 40px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 16px;
+  width: 180px;
+}
+
+.opinion .card-text {
+  font-size: 14px;
+}
+
+.debate {
+  border-bottom: 4px double lightgrey;
+}
+
+.debate-red {
+  border-top: 4px red solid;
+}
+
+.debate-blue {
+  border-top: 4px blue solid;
+}
+
+.right-side p {
+  font-size: 14px;
+}
+
+.debate-image {
+  height: 70px;
+  width: 70px;
+  margin-top: -65px;
+  position: relative;
+}
+
+.rounded-circle {
+  width: 40px;
+  height: 40px;
+}
+
+.small-logo {
+  height: 40px;
+  width: 40px;
+}
+
+#ad {
+  background-color: rgb(244, 245, 246);
+}
+
+.title-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.magazine .magazine-info {
+  position: relative;
+  bottom: 30px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 17px;
+  width: 140px;
+}
+
+.magazine .magazine-title {
+  background-color: #f3f2f1;
+  font-size: 18px;
+  width: 100%;
+}
+
+.magazine .focus {
+  position: relative;
+  bottom: 32px;
+  width: 90px;
+}
+
+.editor-info {
+  position: relative;
+  bottom: 32px;
+  background-color: #f3f2f1;
+  z-index: 1;
+  font-size: 17px;
+  width: 78px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .scroll-section-opinion {
+    height: 1450px;
+    overflow-y: auto;
+  }
+
+  .scroll-section-opinion::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.slideshow-info {
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: cover;
+  height: 50px;
+  width: 70px;
+  line-height: 55px;
+  bottom: 48px;
+  left: 0;
+  position: relative;
+}
+
+.subscribe-top {
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  left: 80px;
+}
+
+.subscribe-ad {
+  background-color: #f3f2f1;
+}
+
+div .newsletter-photo {
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+    center center / cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.footer-links {
+  line-height: 30px;
+}
+
+footer p .footer-links {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 575px) {
+  .footer-logo {
+    width: 50%;
+  }
+
+  .nav-image-2 {
+    width: 40%;
+  }
+}
+
+#navbar-2 {
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  margin-bottom: 1px;
+}
+
+main {
+  position: absolute;
+  z-index: -2;
+}
